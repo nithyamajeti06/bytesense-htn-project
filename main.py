@@ -43,7 +43,7 @@ cursor.close()
 #
 #)
 
-Cohe = cohere.Client("Z4qwucm7otTNnqGZkjZoKH1PrO7e1tQOXl1eXr79")
+Cohe = cohere.Client("YOUR-KEY")
 
 #ModelReturns = Cohe.create_custom_model("food_guide", "CLASSIFY", Train_Set)
 
