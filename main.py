@@ -34,6 +34,7 @@ def chatgptcall(prompt):
 
 cursor = sql.connect("Train.db")
 
+#If you want to reset the database and retrain from scratch, uncomment line 38 and then comment it again once you have created the table.
 #cursor.execute(
 #"CREATE TABLE Train(Sample string, Class string, PointID integer PRIMARY KEY)")
 
